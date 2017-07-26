@@ -1,2 +1,2 @@
-### Summer 
-A frontEnd frame for ZYX
+# summer-cli
+This is a summer cli
