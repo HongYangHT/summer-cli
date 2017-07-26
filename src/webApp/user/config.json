@@ -1,0 +1,30 @@
+{
+  "/user": {
+    "title": "用户",
+    "submenu": [{
+      "/user": {
+        "title": "用户首页",
+        "iconClass": {
+          "el-icon-share": true
+        },
+        "submenu": []
+      }
+    }, {
+      "/userList": {
+        "title": "用户列表",
+        "iconClass": {
+          "el-icon-share": true
+        },
+        "submenu": []
+      }
+    }, {
+      "/userEmp": {
+        "title": "用户部门",
+        "iconClass": {
+          "el-icon-share": true
+        },
+        "submenu": []
+      }
+    }]
+  }
+}

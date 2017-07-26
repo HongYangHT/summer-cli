@@ -1,0 +1,23 @@
+{
+  "/info": {
+    "title": "信息",
+    "submenu": [{
+      "/userInfo": {
+        "title": "信息首页",
+        "iconClass": { "el-icon-share": true },
+        "submenu": [],
+        "permission": [
+          {
+            "name": "查看权限",
+            "key": "App.info.userInfo.view",
+            "value": ["/us/v1/checkView.do"]
+          },{
+            "name": "编辑权限",
+            "key": "App.info.userInfo.edit",
+            "value": ["/us/v1/editView.do"]
+          }
+        ]
+      }
+    }]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "/userEmp": {
+    "title": "用户部门首页",
+    "submenu": [],
+    "permission": [
+      {
+        "name": "查看权限",
+        "key": "App.user.userEmp.view",
+        "value": ["/us/v1/checkView.do"]
+      },{
+        "name": "编辑权限",
+        "key": "App.user.userEmp.edit",
+        "value": ["/us/v1/editView.do"]
+      }
+    ]
+  }
+}

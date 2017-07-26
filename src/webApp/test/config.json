@@ -1,0 +1,39 @@
+{
+  "/test": {
+    "title": "测试",
+    "submenu": [{
+      "/test": {
+        "title": "测试首页",
+        "iconClass": { "el-icon-share": true },
+        "submenu": [],
+        "permission": [
+          {
+            "name": "查看权限",
+            "key": "App.test.test.view",
+            "value": ["/us/v1/checkView.do"]
+          },{
+            "name": "编辑权限",
+            "key": "App.test.test.edit",
+            "value": ["/us/v1/editView.do"]
+          }
+        ]
+      },
+      "/": {
+        "title": "测试index",
+        "iconClass": { "el-icon-share": true },
+        "submenu": [],
+        "permission": [
+          {
+            "name": "查看权限",
+            "key": "App.test.index.view",
+            "value": ["/us/v1/checkView.do"]
+          },{
+            "name": "编辑权限",
+            "key": "App.test.index.edit",
+            "value": ["/us/v1/editView.do"]
+          }
+        ]
+      }
+    }]
+  }
+}

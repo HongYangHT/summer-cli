@@ -1,0 +1,32 @@
+{
+  "/userList": {
+    "title": "用户列表首页",
+    "submenu": [],
+    "permission": [
+      {
+        "name": "查看权限",
+        "key": "App.user.userList.view",
+        "value": ["/us/v1/checkView.do"]
+      },{
+        "name": "编辑权限",
+        "key": "App.user.userList.edit",
+        "value": ["/us/v1/editView.do"]
+      }
+    ]
+  },
+  "/userInfo": {
+    "title": "用户列表详情",
+    "submenu": [],
+    "permission": [
+      {
+        "name": "查看权限",
+        "key": "App.user.userInfo.view",
+        "value": ["/us/v1/checkView.do"]
+      },{
+        "name": "编辑权限",
+        "key": "App.user.userInfo.edit",
+        "value": ["/us/v1/editView.do"]
+      }
+    ]
+  }
+}

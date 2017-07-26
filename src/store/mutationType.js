@@ -1,0 +1,5 @@
+export const SET_TOPMENU = 'setTopMenu'
+export const SET_ROLE = 'setRole'
+export const SET_OPARATE = 'setOparate'
+export const SET_PERMISSON = 'setPermission'
+export const SET_VIEWPERMISSION = 'setViewPermission'

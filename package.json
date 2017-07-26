@@ -1,0 +1,46 @@
+{
+  "name": "summer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node app",
+    "build": "cross-env NODE_ENV=production node app && gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.3.0",
+    "body-parser": "^1.17.1",
+    "cookie-session": "^2.0.0-beta.1",
+    "core": "git+ssh://git@192.168.51.36:10022/middleCore/core.git",
+    "cross-env": "^4.0.0",
+    "duplicate-package-checker-webpack-plugin": "^1.2.4",
+    "formidable": "^1.1.1",
+    "fs-extra": "^2.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-hash": "^4.1.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-less": "^3.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "morgan": "^1.8.1",
+    "node-uuid": "^1.4.8",
+    "postcss-salad": "^2.0.0",
+    "webpack-visualizer-plugin": "^0.1.11"
+  },
+  "dependencies": {
+    "element-ui": "^1.2.7",
+    "vue-components": "git+ssh://git@192.168.51.36:10022/front-end/vue-components.git",
+    "vue-extra": "git+ssh://git@192.168.51.36:10022/front-end/vue-extra.git"
+  }
+}
