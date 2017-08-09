@@ -64,3 +64,5 @@ files/
 
 # package file
 dist/
+
+.idea
